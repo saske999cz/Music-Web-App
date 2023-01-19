@@ -8,6 +8,7 @@ A website degisned for music, developed by using HTML, JavaScript, PHP nad CSS.
 <br>
 <br>
 <h1>Sign up Page</h1>
+<img src="https://github.com/saske999cz/Music-Web-App/blob/master/pic1.png">
 <img src="https://github.com/saske999cz/Music-Web-App/blob/master/pic3.png">
 
 <br>
