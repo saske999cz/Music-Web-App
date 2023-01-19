@@ -9,99 +9,203 @@ const songs =[
 
     {
         id: "2",
-        songName:`On My Way <br> <div class="sub">Son Tung</div>`,
+        songName:`Faded <br> <div class="sub">Alan Walker</div>`,
         poster:'img/2.jpg',
     },
     {
         id: "3",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`On & on <br> <div class="sub">NCS Cartoon</div>`,
         poster:'img/3.jpg',
     },
     {
         id: "4",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Warriyo <br> <div class="sub">NCS Mortals(Laura Brehm)</div>`,
         poster:'img/4.jpg',
     },
     {
         id: "5",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Chạy ngay đi <br> <div class="sub">Sơn Tùng M-TP</div>`,
         poster:'img/5.jpg',
     },
     {
         id: "6",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Lạc trôi <br> <div class="sub">Sơn Tùng M-TP</div>`,
         poster:'img/6.jpg',
     },
     {
         id: "7",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Nắng ấm xa dần <br> <div class="sub">Sơn Tùng M-TP</div>`,
         poster:'img/7.jpg',
     },
     {
         id: "8",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Em của ngày hôm qua <br> <div class="sub">Sơn Tùng M-TP</div>`,
         poster:'img/8.jpg',
     },
     {
         id: "9",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Chắc ai đó sẽ về <br> <div class="sub">Sơn Tùng M-TP</div>`,
         poster:'img/9.jpg',
     },
     {
         id: "10",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Nơi này có anh <br> <div class="sub">Sơn Tùng M-TP</div>`,
         poster:'img/10.jpg',
     },
     {
         id: "11",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Chúng ta không thuộc về nhau <br> <div class="sub">Sơn Tùng M-TP</div>`,
         poster:'img/11.jpg',
     },
     {
         id: "12",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Cơn mưa ngang qua <br> <div class="sub">Sơn Tùng M-TP</div>`,
         poster:'img/12.jpg',
     },
     {
         id: "13",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Anh sẽ về sớm thôi <br> <div class="sub">Isaac</div>`,
         poster:'img/13.jpg',
     },
     {
         id: "14",
-        songName:`On My Way <br><div class="sub">Alan Walker</div>`,
+        songName:`Đau đầu <br><div class="sub">Isaac</div>`,
         poster:'img/14.jpg',
     },
     {
         id: "15",
-        songName:`On My Way <br><div class="sub">Alan Walker</div>`,
+        songName:`Mr.Right <br><div class="sub">Isaac</div>`,
         poster:'img/15.jpg',
     },
     {
         id: "16",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Tôi đã quên thật rồi <br> <div class="sub">Isaac</div>`,
         poster:'img/16.jpg',
     },
     {
         id: "17",
-        songName:`On My Way <br> <div class="sub">Alan Walker</div>`,
+        songName:`Alone <br> <div class="sub">Alan Walker</div>`,
         poster:'img/17.jpg',
     },
     {
         id: "18",
-        songName:`On My Way <br><div class="sub">Alan Walker</div>`,
+        songName:`Sing Me To Sleep <br><div class="sub">Alan Walker</div>`,
         poster:'img/18.jpg',
     },
     {
         id: "19",
-        songName:`On My Way <br><div class="sub">Alan Walker</div>`,
+        songName:`The Spectre <br><div class="sub">Alan Walker</div>`,
         poster:'img/19.jpg',
     },
     {
         id: "20",
-        songName:`On My Way <br><div class="sub">Alan Walker</div>`,
+        songName:`Love Me <br><div class="sub">Justin Beiber</div>`,
         poster:'img/20.jpg',
     },
+    
+]
+
+const pop_songs = [
+    {
+        id: "21",
+        songName:`Baby <br> <div class="sub">Justin Beiber</div>`,
+        poster:'img/21.jpg',
+    },
+    {
+        id: "22",
+        songName:`Eenie Meenie <br> <div class="sub">Justin Beiber</div>`,
+        poster:'img/22.jpg',
+    },
+    {
+        id: "23",
+        songName:`Beauty And A Beat <br> <div class="sub">Justin Beiber</div>`,
+        poster:'img/23.jpg',
+    },
+    {
+        id: "24",
+        songName:`Boyfriend <br> <div class="sub">Justin Beiber</div>`,
+        poster:'img/24.jpg',
+    },
+    {
+        id: "25",
+        songName:`You Belong With Me <br> <div class="sub">Taylor Swift</div>`,
+        poster:'img/25.jpg',
+    },
+    {
+        id: "26",
+        songName:`Love Story <br> <div class="sub">Taylor Swift</div>`,
+        poster:'img/26.jpg',
+    },
+    {
+        id: "27",
+        songName:`Shake It Off <br> <div class="sub">Taylor Swift</div>`,
+        poster:'img/27.jpg',
+    },
+    {
+        id: "28",
+        songName:`Anh nhà ở đâu thế <br> <div class="sub">AMEE</div>`,
+        poster:'img/28.jpg',
+    },
+    {
+        id: "29",
+        songName:`Yêu thì yêu không yêu thì yêu<br> <div class="sub">AMEE</div>`,
+        poster:'img/29.jpg',
+    },
+    {
+        id: "30",
+        songName:`Tình bạn diệu kỳ <br> <div class="sub">AMEE</div>`,
+        poster:'img/30.jpg',
+    },
+    {
+        id: "31",
+        songName:`Em đã biết <br> <div class="sub">Suni Hạ Linh</div>`,
+        poster:'img/31.jpg',
+    },
+    {
+        id: "32",
+        songName:`Không sao mà em đây rồi <br> <div class="sub">Suni Hà Linh</div>`,
+        poster:'img/32.jpg',
+    },
+    {
+        id: "33",
+        songName:`Waiting For You <br> <div class="sub">MONO</div>`,
+        poster:'img/33.jpg',
+    },
+    {
+        id: "34",
+        songName:`Why We Lose <br> <div class="sub">NCS</div>`,
+        poster:'img/1.jpg',
+    },
+    {
+        id: "35",
+        songName:`SuperHero <br> <div class="sub">NCS</div>`,
+        poster:'img/1.jpg',
+    },
+    {
+        id: "36",
+        songName:`Heroes Tonight <br> <div class="sub">NCS</div>`,
+        poster:'img/36.jpg',
+    },
+    {
+        id: "37",
+        songName:`Shine <br> <div class="sub">NCS Spektrem</div>`,
+        poster:'img/37.jpg',
+    },
+    {
+        id: "38",
+        songName:`Linked <br> <div class="sub">NCS</div>`,
+        poster:'img/38.jpg',
+    },
+    {
+        id: "39",
+        songName:`Fly Away <br> <div class="sub">The Fat Rat</div>`,
+        poster:'img/39.jpg',
+    },
+    {
+        id: "40",
+        songName:`Monody <br> <div class="sub">The Fat Rat</div>`,
+        poster:'img/40.jpg',
+    }
     
 ]
 
@@ -110,6 +214,18 @@ Array.from(document.getElementsByClassName('SongItem')).forEach((e, i) => {
     e.getElementsByTagName('h5')[0].innerHTML = songs[i].songName;
     
 });
+
+Array.from(document.getElementsByClassName('pop_song_item')).forEach((e, i) => {
+    e.getElementsByTagName('img')[0].src = pop_songs[i].poster;
+    e.getElementsByTagName('h5')[0].innerHTML = pop_songs[i].songName;
+    
+});
+
+let j = 1;
+Array.from(document.getElementsByClassName('artists_ava')).forEach((e)=>{
+    e.getElementsByTagName('img')[0].src = `img/ava${j}.jpg`;
+    j++;
+})
 
 //Search data start
 let search_results = document.getElementsByClassName('search_results')[0];
@@ -127,12 +243,14 @@ let input = document.getElementsByTagName('input')[0];
 input.addEventListener('keyup', ()=>{
     let input_value = input.value.toUpperCase();
     let items = search_results.getElementsByTagName('a');
+    search_results.style.opacity = "1";
     for (let index = 0; index < items.length; index++) {
         let as = items[index].getElementsByClassName('content1')[0];
         let text_value = as.textContent || as.innerHTML;
 
         if (text_value.toUpperCase().indexOf(input_value) > -1) {
             items[index].style.display = "flex";
+            
         } else {
             items[index].style.display = "none";
         }
@@ -227,6 +345,10 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e)=>{
             return els.id==index;
         });
 
+        let popsongTitles = pop_songs.filter((els) => {
+            return els.id==index;
+        });
+
         songTitles.forEach(elss => {
             let {songName} = elss;
             title.innerHTML = songName;
@@ -234,6 +356,16 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e)=>{
             name = name.split('<div class="sub">').join("");
             name = name.split('</div>').join('');
             download_music.setAttribute('download', name);
+            
+        })
+
+        popsongTitles.forEach(elss => {
+            let {songName} = elss;
+            title.innerHTML = songName;
+            let popname = songName.split("<br>").join("");
+            popname = popname.split('<div class="sub">').join("");
+            popname = popname.split('</div>').join('');
+            download_music.setAttribute('download', popname);
             
         })
 

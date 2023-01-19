@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 95vh;
+    background-color: #131312;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/middle.jpg');
+    
+    
+    }
+
+    /*Signup style*/
+
+#signup{
+    position: relative;
+    margin-top: -150px;
+    left: 25px;
+    
+}
+#signup form{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    background-color: #0b1320;
+    border-radius: 20px;
+    height: 600px;
+    width: 500px;
+    top: 100px;
+    
+
+}
+#signup form h2{
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    
+
+}
+
+#signup form #tx11{
+    position: absolute;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+  outline: none;
+  padding-left: 20px;
+  height: 40px;
+  width: 400px;
+  background: rgb(184, 184, 184, .1);
+  color: #fff;
+  top: 180px;
+
+
+}
+
+#signup form #tx22{
+    position: absolute;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+  outline: none;
+  padding-left: 20px;
+  height: 40px;
+  width: 400px;
+  background: rgb(184, 184, 184, .1);
+  color: #fff;
+  top: 250px;
+}
+
+#signup form #tx33{
+    position: absolute;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+  outline: none;
+  padding-left: 20px;
+  padding-top: 2px;
+  height: 40px;
+  width: 400px;
+  background: rgb(184, 184, 184, .1);
+  color: #fff;
+  top:320px;
+}
+
+#signup form #tx44{
+    position: absolute;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+  outline: none;
+  padding-left: 20px;
+  padding-top: 3px;
+  height: 40px;
+  width: 400px;
+  background: rgb(184, 184, 184, .1);
+  color: #fff;
+  top: 390px;
+}
+
+
+#signup form #user_password_eye_icon{
+    position: absolute;
+    top: 324px;
+    right: 68px;
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#signup form #check_icon1{
+    position: absolute;
+    top: 190px;
+    right: 69px;
+    font-size: 20px;
+    color: greenyellow;
+    cursor: pointer;
+    display: none;
+    
+
+
+}
+
+#signup form #check_icon2{
+    position: absolute;
+    top: 400px;
+    right: 69px;
+    font-size: 20px;
+    color: greenyellow;
+    cursor: pointer;
+    display: none;
+
+}
+
+#signup form #not_match_msg{
+    position: absolute;
+    top: 438px;
+    display: none;
+    color: #D61E55;
+}
+
+#signup form #email_error_msg{
+    position: absolute;
+    top: 225px;
+    display: none;
+    color: #D61E55;
+}
+
+#beam1{
+    position: relative;
+    top: 345px;
+    right: 245px;
+    font-size: 35px;
+    color: #fff;
+    z-index: 999999;
+    animation: beat .425s linear infinite;
+    width: 20px;
+}
+
+
+#signup form .button{
+    position: absolute;
+    font-size: 18px;
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    width: 400px;
+    cursor: pointer;
+    background-color: #36e2ec;
+    font-weight: 600;
+    top: 490px;
+    right: 50px;
+
+}
+#signup form img{
+    position: relative;
+    width: 175px;
+    height: 120px;
+    top: 3px;
+    right: 0px;
+}
+
+#signup form .check{
+    position: relative;
+    display: flex;
+    align-items: center;
+    right: 130px;
+    top: 10px;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+#signup form .check input{
+    cursor: pointer;
+}
+
+#signup form .check span{
+    margin-left: 8px;
+    
+}
+
+#signup form p{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    top: 560px;
+   
+}
+
+#signup form p a{
+    color: #36e2ec;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#signup img{
+    position: relative;
+    top: 120px;
+    right: -150px;
+}
+
+
+
+.soundWaves {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    background: transparent;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 1em;
+    z-index: 3;
+    transform: rotate(180deg);
+    top: -50px;
+    right: 780px;
+    rotate: 30deg;
+}
+ .soundWaves .line1, .line2, .line3, .line4, .line5 {
+    background: linear-gradient(123deg, #ff78e2 55%, transparent 10%, #ff78e2 70%);
+    background-size: 700%;
+    height: 50px;
+    width: 15px;
+    animation: upDown .6s linear infinite, colourAnimate 2s linear infinite;
+    animation-delay: calc(var(--i) * -0.25s);
+    transition: all 1s;
+    opacity: 0;
+}
+
+.soundWaves .line1.active, .line2.active, .line3.active, .line4.active, .line5.active {
+    opacity: 1;
+    animation: upDown 0.7s linear infinite, colourAnimate 2s linear infinite;
+    animation-delay: calc(var(--i) * -0.25s);
+}
+.soundWaves1 {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 1em;
+    z-index: 3;
+    transform: rotate(180deg);
+    top: -35px;
+    right: -197px;
+    rotate: -30deg;
+}
+ .soundWaves1 .line11, .line22, .line33, .line44, .line55 {
+    background: linear-gradient(123deg, #ff78e2 55%, transparent 10%, #ff78e2 70%);
+    background-size: 700%;
+    height: 35px;
+    width: 15px;
+    animation: upDown .6s linear infinite, colourAnimate 2s linear infinite;
+    animation-delay: calc(var(--i) * -0.25s);
+    transition: all 1s;
+    opacity: 0;
+}
+
+.soundWaves .line11.active, .line22.active, .line33.active, .line44.active, .line55.active {
+    opacity: 1;
+    animation: upDown 0.7s linear infinite, colourAnimate 2s linear infinite;
+    animation-delay: calc(var(--i) * -0.25s);
+}
+
+@keyframes colourAnimate {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 700% 0;
+    }
+}
+@keyframes upDown {
+    0% {
+        height: 10px;
+        
+    }
+    50% {
+        height: 50px;
+    }
+    100% {
+        height: 10px;
+    }
+}
+
+@keyframes beat {
+    0% {
+        font-size: 30px;
+        right: 240;
+    }
+    50% {
+        font-size: 40px;
+        right: 255;
+    }
+    100% {
+        font-size: 35px;
+        right: 245;
+    }
+}
+
+#img_num_1 img{
+    width: 550px;
+    height: 95vh;
+    margin-right: 130px;
+}
+#img_num_2 img{
+    width: 550px;
+    height: 95vh;
+    margin-left: 50px;
+
+}
+

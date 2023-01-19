@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 95vh;
+    background-color: #131312;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/middle.jpg');
+    
+    
+    }
+
+    /*Login style*/
+
+#login{
+    position: relative;
+    margin-top: -150px;
+    left: 25px;
+    
+}
+#login form{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    background-color: #0b1320;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    top: 100px;
+    
+
+}
+#login form h2{
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    
+
+}
+
+#login form #tx1{
+    position: relative;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+  outline: none;
+  padding-left: 40px;
+  height: 40px;
+  width: 400px;
+  background: rgb(184, 184, 184, .1);
+  color: #fff;
+
+
+}
+
+#login form #tx2{
+    position: relative;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+  outline: none;
+  padding-left: 40px;
+  height: 40px;
+  width: 400px;
+  background: rgb(184, 184, 184, .1);
+  color: #fff;
+  top: -7px;
+}
+
+#login form .icons{
+ position: relative;
+
+}
+
+#login form #user_icon{
+    top: -37px;
+    right: 180px;
+    font-size: 23px;
+    color: #fff;
+}
+#login form #user_password_icon{
+    top: -42px;
+    right: 180px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#beam1{
+    position: relative;
+    top: 295px;
+    right: 245px;
+    font-size: 35px;
+    color: #fff;
+    z-index: 999999;
+    animation: beat .425s linear infinite;
+    width: 20px;
+}
+
+
+#login form .button{
+    position: relative;
+    font-size: 18px;
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    width: 400px;
+    cursor: pointer;
+    background-color: #36e2ec;
+    font-weight: 600;
+    top: -4px;
+
+}
+#login form img{
+    position: relative;
+    width: 175px;
+    height: 120px;
+    top: 3px;
+    right: 0px;
+}
+
+#login form .check{
+    position: relative;
+    display: flex;
+    align-items: center;
+    right: 130px;
+    top: 10px;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+#login form .check input{
+    cursor: pointer;
+}
+
+#login form .check span{
+    margin-left: 8px;
+    
+}
+
+#login form p{
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    top: 70px;
+   
+}
+
+#login form p a{
+    color: #36e2ec;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#login img{
+    position: relative;
+    top: 120px;
+    right: -150px;
+}
+
+
+
+.soundWaves {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    background: transparent;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 1em;
+    z-index: 3;
+    transform: rotate(180deg);
+    top: -50px;
+    right: 780px;
+    rotate: 30deg;
+}
+ .soundWaves .line1, .line2, .line3, .line4, .line5 {
+    background: linear-gradient(123deg, #ff78e2 55%, transparent 10%, #ff78e2 70%);
+    background-size: 700%;
+    height: 50px;
+    width: 15px;
+    animation: upDown .6s linear infinite, colourAnimate 2s linear infinite;
+    animation-delay: calc(var(--i) * -0.25s);
+    transition: all 1s;
+    opacity: 0;
+}
+
+.soundWaves .line1.active, .line2.active, .line3.active, .line4.active, .line5.active {
+    opacity: 1;
+    animation: upDown 0.7s linear infinite, colourAnimate 2s linear infinite;
+    animation-delay: calc(var(--i) * -0.25s);
+}
+.soundWaves1 {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 1em;
+    z-index: 3;
+    transform: rotate(180deg);
+    top: -35px;
+    right: -197px;
+    rotate: -30deg;
+}
+ .soundWaves1 .line11, .line22, .line33, .line44, .line55 {
+    background: linear-gradient(123deg, #ff78e2 55%, transparent 10%, #ff78e2 70%);
+    background-size: 700%;
+    height: 35px;
+    width: 15px;
+    animation: upDown .6s linear infinite, colourAnimate 2s linear infinite;
+    animation-delay: calc(var(--i) * -0.25s);
+    transition: all 1s;
+    opacity: 0;
+}
+
+.soundWaves .line11.active, .line22.active, .line33.active, .line44.active, .line55.active {
+    opacity: 1;
+    animation: upDown 0.7s linear infinite, colourAnimate 2s linear infinite;
+    animation-delay: calc(var(--i) * -0.25s);
+}
+
+@keyframes colourAnimate {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 700% 0;
+    }
+}
+@keyframes upDown {
+    0% {
+        height: 10px;
+        
+    }
+    50% {
+        height: 50px;
+    }
+    100% {
+        height: 10px;
+    }
+}
+
+@keyframes beat {
+    0% {
+        font-size: 30px;
+        right: 240;
+    }
+    50% {
+        font-size: 40px;
+        right: 255;
+    }
+    100% {
+        font-size: 35px;
+        right: 245;
+    }
+}
+
+#img_num_1 img{
+    width: 550px;
+    height: 95vh;
+    margin-right: 130px;
+}
+#img_num_2 img{
+    width: 550px;
+    height: 95vh;
+    margin-left: 50px;
+
+}
+
