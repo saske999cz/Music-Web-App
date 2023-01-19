@@ -1,6 +1,6 @@
 # Music-Web-App
 
-A website degisned for music, developed by using HTML, JavaScript, PHP nad CSS.
+A website degisned for music, developed by using HTML, JavaScript, PHP and CSS.
 <br>
 <h1>Login Page</h1>
 <img src="https://github.com/saske999cz/Music-Web-App/blob/master/pic4.png">
