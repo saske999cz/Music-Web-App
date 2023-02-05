@@ -15,3 +15,11 @@ A website designed for music, developed by using HTML, JavaScript, PHP and CSS.
 <br>
 <h1>User Page</h1>
 <img src="https://github.com/saske999cz/Music-Web-App/blob/master/pic2.png">
+
+<br>
+<br>
+<h1>Admin Page</h1>
+<img src="https://github.com/saske999cz/Music-Web-App/blob/master/pic5.png">
+<br>
+<img src="https://github.com/saske999cz/Music-Web-App/blob/master/pic6.png">
+
