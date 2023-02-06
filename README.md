@@ -23,5 +23,5 @@ A website designed for music, developed by using HTML, JavaScript, PHP and CSS.
 <br>
 <img src="https://github.com/saske999cz/Music-Web-App/blob/master/pic8.png">
 <br>
-<img src="https://github.com/saske999cz/Music-Web-App/blob/master/pic7.png">
+<img src="https://github.com/saske999cz/Music-Web-App/blob/master/pic9.png">
 
